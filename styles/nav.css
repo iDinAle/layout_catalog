@@ -1,0 +1,36 @@
+.nav {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 60px;
+  text-transform: uppercase;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+  .nav__list {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .nav__list-item {
+    margin: 0 10px;
+    position: relative; }
+    .nav__list-item--is-active::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      border-radius: 2px;
+      background-color: #00acdc; }
+  .nav__link {
+    padding: 24px 0;
+    color: black; }
+    .nav__link:hover {
+      color: #00acdc; }
+    .nav__link--is-active {
+      color: #00acdc; }
+
+/*# sourceMappingURL=nav.css.map */

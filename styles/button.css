@@ -1,0 +1,27 @@
+.button {
+  margin-top: 20px;
+  height: 40px;
+  background: #00acdc;
+  border-radius: 5px;
+  border: 1px solid #00acdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .button:hover {
+    background: #fff; }
+  .button__link {
+    padding: 14px 58px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase; }
+    .button__link:hover {
+      color: #00acdc; }
+
+/*# sourceMappingURL=button.css.map */

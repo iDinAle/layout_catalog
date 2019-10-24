@@ -15,39 +15,5 @@
   .header__logo {
     height: 40px;
     width: 40px; }
-  .header__navbar {
-    font-family: roboto, sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 60px;
-    text-transform: uppercase; }
-  .header__navlist {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .header__navlist-item {
-    margin: 0 10px; }
-  .header__navlink {
-    padding: 25px 0;
-    color: black;
-    text-decoration: none; }
-  .header__navlink:hover {
-    color: #00acdc; }
-  .header__navlink--is-active {
-    color: #00acdc;
-    position: relative; }
-  .header__navlink--is-active::after {
-    content: "";
-    position: absolute;
-    bottom: 2px;
-    left: 0;
-    right: 0;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #00acdc; }
 
 /*# sourceMappingURL=header.css.map */

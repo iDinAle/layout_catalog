@@ -1,0 +1,16 @@
+.stars {
+  height: 14px;
+  width: 91px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .stars__item {
+    width: 14px;
+    background: url(../images/star-active.svg) no-repeat 0 0/13px; }
+    .stars__item--inactive {
+      background: url(../images/star.svg) no-repeat 0 0/13px; }
+
+/*# sourceMappingURL=stars.css.map */
