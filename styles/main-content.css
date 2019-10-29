@@ -1,13 +1,10 @@
 .main__content {
-  max-width: 992px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  grid-gap: 50px 48px; }
 
 /*# sourceMappingURL=main-content.css.map */
